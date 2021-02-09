@@ -38,7 +38,7 @@ switch (var) {
   case label2:
     // Statement(s)
     break;
-  default:
+  default: // Falls nichts zutriff, führe "default" aus.
     // Statement(s)
     break; // Wird nicht benötigt, wenn Statement(s) vorhanden sind
 }
@@ -80,9 +80,9 @@ switch (var) {
     // Tue etwas, wenn "var" 2 ist
     break;
   default:
-    // Tue etwas, im Defaultfall
-    // Dieser Fall ist optional
-    break; // Wird nicht benötigt, wenn Statement(s) vorhanden sind
+    // Falls nichts zutrifft, führe "default" aus.
+    // Dieser Fall ist optional.
+    break; // Wird nicht benötigt, wenn Statement(s) vorhanden sind.
 }
 ----
 [%hardbreaks]
